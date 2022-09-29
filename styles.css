@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+html,
+body {
+    height: 100%;
+    width: 100;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    background: white;
+    height: 58px;
+    box-shadow: rgba(0, 0, 0, 0.05) 1.95px 1.95px 10px;
+}
+
+.left img {
+    width: 60.5px;
+    height: 38.5px;
+    padding: 0 9px 0 0;
+}
+
+.container {
+    padding: 11px 3.5vw;
+    ;
+}
+
+nav {
+    font-size: 14px;
+    padding: 8px 2px 0 3px;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 0 18px;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 0 18px;
+}
+
+@media only screen and (max-width:650px) {
+
+    /* For mobile phones: */
+    nav ul li {
+        display: none;
+    }
+}
+
+@media only screen and (max-width:650px) {
+
+    /* For mobile phones: */
+    .logoImg {
+        display: none;
+    }
+}
+
+.right {
+    font-size: 8px;
+}
+
+.search {
+    width: 32vw;
+    padding: 12px 17px 11px 14px;
+    border: 0.5px solid white;
+    background: #f2f2f2;
+    border-radius: 5px;
+    margin: 0 8px 0 0px;
+}
+
+@media only screen and (max-width:650px) {
+
+    /* For mobile phones: */
+    .search {
+        display: none;
+    }
+}
+
+.bannerImg {
+    width: 90.7vw;
+    margin: 23px 9.7px;
+}
+
+.homeImg {
+    width: 98.9vw;
+}
+
+.itemImg {
+    width: 9.8vw;
+}
+
+.iconImg {
+    width: 9.8vw;
+}
+
+@media only screen and (max-width:650px) {
+
+    /* For mobile phones: */
+    .iconImg {
+        width: 150px;
+    }
+}
+
+.tall {
+    min-height: 40vh;
+}
+
+footer {
+    padding: 23px;
+    text-align: center;
+    box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+}
+
+.opIcon {
+    display: none;
+}
+
+@media only screen and (max-width:650px) {
+
+    /* For mobile phones: */
+    .opIcon {
+        padding-top: 8px;
+        display: inline;
+        width: 23px;
+        height: 23px;
+    }
+}
